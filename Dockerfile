@@ -3,7 +3,7 @@ LABEL exposed.command.single=safety
 VOLUME ["/results"]
 VOLUME ["/src"]
 
-RUN pip install safety==1.8.5
+RUN pip install safety==1.9.0
 
 COPY safety.sh /
 WORKDIR /src
